@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Mytally</string>
+    <string name="notification_listener_name">Mytally 通知记账调试</string>
+    <string name="notification_access_required">请在系统设置中为 Mytally 开启通知使用权；授权后仅在 Logcat 输出微信和支付宝通知。</string>
+    <string name="notification_access_enabled">通知使用权已开启，请在 Logcat 中查看 MytallyNotification。</string>
+</resources>

@@ -1,0 +1,62 @@
+# Gradle / Kotlin caches and generated build files (all modules)
+.gradle/
+.kotlin/
+build/
+out/
+.externalNativeBuild/
+.cxx/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.hprof
+
+# Android Studio / IntelliJ / VS Code local settings
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Local SDK paths, environment variables and signing credentials
+local.properties
+keystore.properties
+key.properties
+secrets.properties
+.env
+.env.*
+!.env.example
+!.env.sample
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+*.pem
+
+# Runtime logs and local databases (may contain notification / payment data)
+*.log
+logcat*.txt
+logcat*.json
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Local development plans and completion reports
+/task_plan.md
+/findings.md
+/progress.md
+/TRANSACTIONS_SCREEN_COMPLETE.md
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
